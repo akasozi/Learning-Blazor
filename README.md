@@ -101,5 +101,52 @@ To Create a new razor component use the command below
 A razor component called Todo is created in the Pages directory
 
 
+# Host and deploy ASP.NET Core Blazor WebAssembly
+
+With the Blazor WebAssembly Hosting model 
+- The Blazor app, its dependencies, and the .NET runtime are downloaded to the browser in parallel.
+- The app is executed directly on the browser UI thread.
+
+The Blazor application can either: 
+- The Blazor app is served by an ASP.NET Core app. (Hosted Deployment with ASP.NET Core)
+- The Blazor app is placed on a static hosting web server or service, where .NET isn't used to serve the Blazor app (Standalone deployment)
+
+## Ahead-of-time (AOT) compilation
+- where you can compile your .NET code directly into WebAssembly.
+- AOT compilation results in runtime performance improvements at the expense of a larger app size
+- Without enabling AOT compilation, Blazor WebAssembly apps run on the browser using a .NET Intermediate Language (IL) interpreter implemented in WebAssembly. 
+- Because the .NET code is interpreted, apps typically run slower than they would on a server-side .NET just-in-time (JIT) runtime. 
+- AOT compilation addresses this performance issue by compiling an app's .NET code directly into WebAssembly for native WebAssembly execution by the browser.
+- The AOT performance improvement can yield dramatic improvements for apps that execute CPU intensive tasks.
+- The drawback to using AOT compilation is that AOT-compiled apps are generally larger than their IL-interpreted counterparts, so they usually take longer to download to the client when first requested.
+- To enable WebAssembly AOT compilation, add the <RunAOTCompilation> property set to true to the Blazor WebAssembly app's project file
+
+    <PropertyGroup>
+        <RunAOTCompilation>true</RunAOTCompilation>
+     </PropertyGroup>
+    
+   
+    
+- To compile the app to WebAssembly, publish the app. using the command 
+     
+       dotnet publish -c Release
+    
+- On mac you must first run the command 
+    
+      dotnet workload install macos 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
 
 
