@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/BlazorApp/BlazorApp.csproj": {}
+  },
+  "projects": {
+    "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/BlazorApp/BlazorApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/BlazorApp/BlazorApp.csproj",
+        "projectName": "BlazorApp",
+        "projectPath": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/BlazorApp/BlazorApp.csproj",
+        "packagesPath": "/Users/abubizibu/.nuget/packages/",
+        "outputPath": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/BlazorApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/abubizibu/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
