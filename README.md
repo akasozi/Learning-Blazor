@@ -94,7 +94,7 @@ Use the command below to create a new Blazor Project in a directory of your choi
 
 To Create a new razor component use the command below
 
-   dotnet new razorcomponent -n Todo -o Pages
+     dotnet new razorcomponent -n Todo -o Pages
 
 A razor component called Todo is created in the Pages directory
 
