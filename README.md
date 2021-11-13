@@ -10,4 +10,7 @@ To run the application run the command
     dotnet watch
     
     
+Each .razor file contains the view and a .razor file name is the name of the component    
+    
+    
 
