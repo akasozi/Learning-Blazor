@@ -135,7 +135,8 @@ The Blazor application can either:
     
       dotnet workload install macos 
     
-    
+- WebAssembly AOT compilation is only performed when the project is published.
+This means that using AOT compilation trades off load time performance for runtime performance. Whether this tradeoff is worth using AOT compilation depends on your app. Blazor WebAssembly apps that are CPU intensive generally benefit the most from AOT compilation.
     
     
     
