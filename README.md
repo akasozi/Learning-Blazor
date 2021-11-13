@@ -61,7 +61,36 @@ You can use Blazor to generate:
 - A client-side web app that runs directly in the browser via WebAssembly.
 
 Use the command below to create a new Blazor Project in a directory of your choice
-    
+
     dotnet new blazorserver -f net6.0
-- Boom    
-    
+- Boom 
+
+## Data binding and events  
+
+- In a Blazor app, you can add C# code in separate .cs files or inline in your Razor components.
+
+## What are Razor directives?
+- Razor directives are component markup used to add C# inline with HTML. 
+- With directives, developers can define single statements, methods, or larger code blocks.  
+
+## Code directives
+- You can use @expression() to add a C# statement inline with HTML.
+- If you require more code, use the @code directive to add multiple statements enclosed by parentheses.
+- You can also add an @functions section to the template for methods and properties. 
+
+## Page directive
+- The @Page directive is special markup that identifies a component as a page. 
+- Use this directive to specify a route. 
+
+
+## Razor data binding
+- Within Razor components, you can data bind HTML elements to C# fields, properties, and Razor expression values. 
+- Data binding allows two-way synchronization between HTML and Microsoft .NET.
+- Data is pushed from HTML to .NET when a component is rendered. 
+- Components render themselves after event-handler code executes. 
+- That's why property updates are reflected in the UI immediately after an event handler is triggered.
+- Use @bind markup to bind a C# variable to an HTML object.
+- You define the C# variable by name as a string in the HTML.
+
+
+
