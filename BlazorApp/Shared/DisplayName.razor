@@ -1,0 +1,15 @@
+﻿<div class="alert alert-secondary mt-4">
+    <span class="oi oi-pencil me-2" aria-hidden="true"></span>
+    Dear,
+    <strong>@candidateName</strong>
+     thankyou for choosing blazor...
+
+</div>
+
+
+@code {
+    // Demonstrates how a parent component can supply parameters
+    [Parameter]
+    public string? candidateName { get; set; }
+
+}

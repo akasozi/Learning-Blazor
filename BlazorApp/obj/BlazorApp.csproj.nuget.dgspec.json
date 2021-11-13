@@ -14,7 +14,7 @@
         "outputPath": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/BlazorApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/abubizibu/.config/NuGet/NuGet.Config"
+          "/Users/abubizibu/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
