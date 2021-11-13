@@ -7,5 +7,7 @@ use the command below to create a new blazor application
 
 To run the application run the command 
 
-   dotnet watch
+    dotnet watch
+    
+    
 
