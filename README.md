@@ -92,5 +92,12 @@ Use the command below to create a new Blazor Project in a directory of your choi
 - Use @bind markup to bind a C# variable to an HTML object.
 - You define the C# variable by name as a string in the HTML.
 
+To Create a new razor component use the command below
+
+   dotnet new razorcomponent -n Todo -o Pages
+
+A razor component called Todo is created in the Pages directory
+
+
 
 
