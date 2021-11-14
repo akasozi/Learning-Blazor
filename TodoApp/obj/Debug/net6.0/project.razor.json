@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/SecondBlazorApp/SecondBlazorApp.csproj",
+  "FilePath": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/TodoApp/TodoApp.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -12,109 +12,10 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -1725065939,
+        "HashCode": -1255686964,
         "Kind": "Components.Component",
-        "Name": "SecondBlazorApp.Pages.Todo",
-        "AssemblyName": "SecondBlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Todo"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SecondBlazorApp.Pages.Todo"
-        }
-      },
-      {
-        "HashCode": 663891666,
-        "Kind": "Components.Component",
-        "Name": "SecondBlazorApp.Pages.Todo",
-        "AssemblyName": "SecondBlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SecondBlazorApp.Pages.Todo"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SecondBlazorApp.Pages.Todo",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -415798251,
-        "Kind": "Components.Component",
-        "Name": "SecondBlazorApp.Pages.FetchData",
-        "AssemblyName": "SecondBlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SecondBlazorApp.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": -602634131,
-        "Kind": "Components.Component",
-        "Name": "SecondBlazorApp.Pages.FetchData",
-        "AssemblyName": "SecondBlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SecondBlazorApp.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SecondBlazorApp.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1132817829,
-        "Kind": "Components.Component",
-        "Name": "SecondBlazorApp.Pages.Counter",
-        "AssemblyName": "SecondBlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SecondBlazorApp.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": -614978269,
-        "Kind": "Components.Component",
-        "Name": "SecondBlazorApp.Pages.Counter",
-        "AssemblyName": "SecondBlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SecondBlazorApp.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SecondBlazorApp.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 69799866,
-        "Kind": "Components.Component",
-        "Name": "SecondBlazorApp.Pages.Index",
-        "AssemblyName": "SecondBlazorApp",
+        "Name": "TodoApp.Pages.Index",
+        "AssemblyName": "TodoApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -123,64 +24,183 @@
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SecondBlazorApp.Pages.Index"
+          "Common.TypeName": "TodoApp.Pages.Index"
         }
       },
       {
-        "HashCode": -1962486806,
+        "HashCode": -1544622123,
         "Kind": "Components.Component",
-        "Name": "SecondBlazorApp.Pages.Index",
-        "AssemblyName": "SecondBlazorApp",
+        "Name": "TodoApp.Pages.Index",
+        "AssemblyName": "TodoApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SecondBlazorApp.Pages.Index"
+            "TagName": "TodoApp.Pages.Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SecondBlazorApp.Pages.Index",
+          "Common.TypeName": "TodoApp.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": 160726618,
+        "HashCode": 806022681,
         "Kind": "Components.Component",
-        "Name": "SecondBlazorApp.Shared.NavMenu",
-        "AssemblyName": "SecondBlazorApp",
+        "Name": "TodoApp.Pages.Counter",
+        "AssemblyName": "TodoApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SecondBlazorApp.Shared.NavMenu"
+          "Common.TypeName": "TodoApp.Pages.Counter"
         }
       },
       {
-        "HashCode": 2099448778,
+        "HashCode": -209885332,
         "Kind": "Components.Component",
-        "Name": "SecondBlazorApp.Shared.NavMenu",
-        "AssemblyName": "SecondBlazorApp",
+        "Name": "TodoApp.Pages.Counter",
+        "AssemblyName": "TodoApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SecondBlazorApp.Shared.NavMenu"
+            "TagName": "TodoApp.Pages.Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SecondBlazorApp.Shared.NavMenu",
+          "Common.TypeName": "TodoApp.Pages.Counter",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": 1092176962,
+        "HashCode": -142003699,
         "Kind": "Components.Component",
-        "Name": "SecondBlazorApp.Shared.MainLayout",
-        "AssemblyName": "SecondBlazorApp",
+        "Name": "TodoApp.Pages.FetchData",
+        "AssemblyName": "TodoApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TodoApp.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": 686559560,
+        "Kind": "Components.Component",
+        "Name": "TodoApp.Pages.FetchData",
+        "AssemblyName": "TodoApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TodoApp.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TodoApp.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -205505442,
+        "Kind": "Components.Component",
+        "Name": "TodoApp.Pages.Todo",
+        "AssemblyName": "TodoApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Todo"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TodoApp.Pages.Todo"
+        }
+      },
+      {
+        "HashCode": -1103877877,
+        "Kind": "Components.Component",
+        "Name": "TodoApp.Pages.Todo",
+        "AssemblyName": "TodoApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TodoApp.Pages.Todo"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TodoApp.Pages.Todo",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1419518330,
+        "Kind": "Components.Component",
+        "Name": "TodoApp.Shared.SurveyPrompt",
+        "AssemblyName": "TodoApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TodoApp.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": 1170415008,
+        "Kind": "Components.Component",
+        "Name": "TodoApp.Shared.SurveyPrompt",
+        "AssemblyName": "TodoApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TodoApp.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TodoApp.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1275292685,
+        "Kind": "Components.Component",
+        "Name": "TodoApp.Shared.MainLayout",
+        "AssemblyName": "TodoApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -201,18 +221,18 @@
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SecondBlazorApp.Shared.MainLayout"
+          "Common.TypeName": "TodoApp.Shared.MainLayout"
         }
       },
       {
-        "HashCode": 405527467,
+        "HashCode": -615263271,
         "Kind": "Components.Component",
-        "Name": "SecondBlazorApp.Shared.MainLayout",
-        "AssemblyName": "SecondBlazorApp",
+        "Name": "TodoApp.Shared.MainLayout",
+        "AssemblyName": "TodoApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SecondBlazorApp.Shared.MainLayout"
+            "TagName": "TodoApp.Shared.MainLayout"
           }
         ],
         "BoundAttributes": [
@@ -229,15 +249,15 @@
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SecondBlazorApp.Shared.MainLayout",
+          "Common.TypeName": "TodoApp.Shared.MainLayout",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": -1986641921,
+        "HashCode": 1056510976,
         "Kind": "Components.ChildContent",
-        "Name": "SecondBlazorApp.Shared.MainLayout.Body",
-        "AssemblyName": "SecondBlazorApp",
+        "Name": "TodoApp.Shared.MainLayout.Body",
+        "AssemblyName": "TodoApp",
         "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -248,88 +268,68 @@
         ],
         "Metadata": {
           "Runtime.Name": "Components.None",
-          "Common.TypeName": "SecondBlazorApp.Shared.MainLayout.Body",
+          "Common.TypeName": "TodoApp.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent"
         }
       },
       {
-        "HashCode": -2091038424,
+        "HashCode": 373617542,
         "Kind": "Components.ChildContent",
-        "Name": "SecondBlazorApp.Shared.MainLayout.Body",
-        "AssemblyName": "SecondBlazorApp",
+        "Name": "TodoApp.Shared.MainLayout.Body",
+        "AssemblyName": "TodoApp",
         "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
             "TagName": "Body",
-            "ParentTag": "SecondBlazorApp.Shared.MainLayout"
+            "ParentTag": "TodoApp.Shared.MainLayout"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.None",
-          "Common.TypeName": "SecondBlazorApp.Shared.MainLayout.Body",
+          "Common.TypeName": "TodoApp.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": -851871276,
+        "HashCode": 2117541621,
         "Kind": "Components.Component",
-        "Name": "SecondBlazorApp.Shared.SurveyPrompt",
-        "AssemblyName": "SecondBlazorApp",
+        "Name": "TodoApp.Shared.NavMenu",
+        "AssemblyName": "TodoApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SecondBlazorApp.Shared.SurveyPrompt"
+          "Common.TypeName": "TodoApp.Shared.NavMenu"
         }
       },
       {
-        "HashCode": -305327146,
+        "HashCode": 281422251,
         "Kind": "Components.Component",
-        "Name": "SecondBlazorApp.Shared.SurveyPrompt",
-        "AssemblyName": "SecondBlazorApp",
+        "Name": "TodoApp.Shared.NavMenu",
+        "AssemblyName": "TodoApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SecondBlazorApp.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "TodoApp.Shared.NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SecondBlazorApp.Shared.SurveyPrompt",
+          "Common.TypeName": "TodoApp.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": -1618773673,
+        "HashCode": 1381425286,
         "Kind": "Components.Component",
-        "Name": "SecondBlazorApp.App",
-        "AssemblyName": "SecondBlazorApp",
+        "Name": "TodoApp.App",
+        "AssemblyName": "TodoApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
@@ -338,23 +338,23 @@
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SecondBlazorApp.App"
+          "Common.TypeName": "TodoApp.App"
         }
       },
       {
-        "HashCode": 1686558316,
+        "HashCode": 1386710173,
         "Kind": "Components.Component",
-        "Name": "SecondBlazorApp.App",
-        "AssemblyName": "SecondBlazorApp",
+        "Name": "TodoApp.App",
+        "AssemblyName": "TodoApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SecondBlazorApp.App"
+            "TagName": "TodoApp.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SecondBlazorApp.App",
+          "Common.TypeName": "TodoApp.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16642,66 +16642,66 @@
     ],
     "CSharpLanguageVersion": 1000
   },
-  "RootNamespace": "SecondBlazorApp",
+  "RootNamespace": "TodoApp",
   "Documents": [
     {
-      "FilePath": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/SecondBlazorApp/Pages/Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/SecondBlazorApp/App.razor",
-      "TargetPath": "App.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/SecondBlazorApp/_Imports.razor",
-      "TargetPath": "_Imports.razor",
-      "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/SecondBlazorApp/Shared/MainLayout.razor",
-      "TargetPath": "Shared\\MainLayout.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/SecondBlazorApp/Shared/SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/SecondBlazorApp/Pages/_Host.cshtml",
-      "TargetPath": "Pages\\_Host.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/SecondBlazorApp/Shared/NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/SecondBlazorApp/Pages/Todo.razor",
+      "FilePath": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/TodoApp/Pages/Todo.razor",
       "TargetPath": "Pages\\Todo.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/SecondBlazorApp/Pages/FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
+      "FilePath": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/TodoApp/Shared/SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/SecondBlazorApp/Pages/Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
+      "FilePath": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/TodoApp/Shared/NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/SecondBlazorApp/Pages/Index.razor",
+      "FilePath": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/TodoApp/Pages/Index.razor",
       "TargetPath": "Pages\\Index.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/SecondBlazorApp/Pages/_Layout.cshtml",
+      "FilePath": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/TodoApp/_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/TodoApp/Pages/Counter.razor",
+      "TargetPath": "Pages\\Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/TodoApp/Pages/Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/TodoApp/Pages/_Layout.cshtml",
       "TargetPath": "Pages\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/TodoApp/Pages/FetchData.razor",
+      "TargetPath": "Pages\\FetchData.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/TodoApp/App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/TodoApp/Shared/MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/abubizibu/Documents/DOTNET/Learning-Blazor/TodoApp/Pages/_Host.cshtml",
+      "TargetPath": "Pages\\_Host.cshtml",
       "FileKind": "mvc"
     }
   ],

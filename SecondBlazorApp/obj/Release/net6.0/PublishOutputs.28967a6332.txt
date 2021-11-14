@@ -1,0 +1,7 @@
+/Users/abubizibu/Documents/DOTNET/Learning-Blazor/SecondBlazorApp/bin/Release/net6.0/publish/SecondBlazorApp
+/Users/abubizibu/Documents/DOTNET/Learning-Blazor/SecondBlazorApp/bin/Release/net6.0/publish/appsettings.Development.json
+/Users/abubizibu/Documents/DOTNET/Learning-Blazor/SecondBlazorApp/bin/Release/net6.0/publish/appsettings.json
+/Users/abubizibu/Documents/DOTNET/Learning-Blazor/SecondBlazorApp/bin/Release/net6.0/publish/SecondBlazorApp.dll
+/Users/abubizibu/Documents/DOTNET/Learning-Blazor/SecondBlazorApp/bin/Release/net6.0/publish/SecondBlazorApp.deps.json
+/Users/abubizibu/Documents/DOTNET/Learning-Blazor/SecondBlazorApp/bin/Release/net6.0/publish/SecondBlazorApp.runtimeconfig.json
+/Users/abubizibu/Documents/DOTNET/Learning-Blazor/SecondBlazorApp/bin/Release/net6.0/publish/SecondBlazorApp.pdb
