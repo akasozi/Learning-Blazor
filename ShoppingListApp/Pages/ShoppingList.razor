@@ -1,0 +1,29 @@
+﻿@page "/shoppinglist"
+
+<h3>Shopping List (@itemsToBuy.Count(item => !item.IsPurchased))</h3>
+
+<ul>
+
+    @foreach (var item in itemsToBuy)
+    {
+        <li>
+            <input type="checkbox" @bind="item.IsPurchased" />
+            <input @bind="item.ItemName" />
+        </li>
+    }
+</ul>
+
+<input placeholder="Item to Buy" @bind="currentBasketItem" />
+<button @onclick="AddItem">Add Item</button>
+
+@code {
+    private List<ShoppingListItem> itemsToBuy = new();
+    private string currentBasketItem;
+    private void AddItem() {
+    
+        if (!string.IsNullOrWhiteSpace(currentBasketItem)) {
+           itemsToBuy.Add(new ShoppingListItem {ItemName = currentBasketItem});
+           currentBasketItem = string.Empty;
+        }
+    }
+}
